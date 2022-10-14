@@ -69,6 +69,10 @@
     }
 }
 
+.nav__link--menu-activ {
+    color: #2196f3;
+}
+
 .contacts__list--menu {
     display: flex;
     flex-direction: column;
@@ -87,6 +91,9 @@
     &:hover,
     &:focus {
         color: #2196f3;
+    }
+
+    span {
         font-size: 34px;
         line-height: calc(40 / 34);
         letter-spacing: 0.02em;
